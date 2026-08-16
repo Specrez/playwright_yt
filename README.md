@@ -13,3 +13,10 @@ npx playwright test examples.spec.js:23 --project=chromium --debug
 node my_first_test.spec.js
 npx playwright codegen
 npx playwright codegen google.com
+npx playwright codegen --help
+npx playwright codegen --browser firefox
+npx playwright codegen --target javascript -o second_test.spec.js
+npx playwright codegen --viewport-size=800,600
+npx playwright codegen --device="iphone 11"
+npx playwright codegen --color-scheme=dark
+npx playwright show-trace trace.zip
