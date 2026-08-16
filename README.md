@@ -20,3 +20,14 @@ npx playwright codegen --viewport-size=800,600
 npx playwright codegen --device="iphone 11"
 npx playwright codegen --color-scheme=dark
 npx playwright show-trace trace.zip
+npx playwright show-trace .\test-results\record1_demo-demo-test-chromium-retry1\trace.zip
+trace.playwright.dev
+////////
+
+test('has title', async ({ page, context }) => {
+
+  await context.tracing.start({ 
+    snapshots: true, 
+    screenshots: true 
+  });
+  ////////////
