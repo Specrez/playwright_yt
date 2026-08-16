@@ -11,3 +11,5 @@ npx playwright test --project=chromium --headed
 npx playwright test --project=chromium --debug 
 npx playwright test examples.spec.js:23 --project=chromium --debug
 node my_first_test.spec.js
+npx playwright codegen
+npx playwright codegen google.com
