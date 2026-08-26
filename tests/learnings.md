@@ -9,3 +9,9 @@ await page.pause()
   //////////////////////////////////
 
   
+  video 
+  on - record vide
+  off - do not record video
+  retain-on-failure - record for each test, remove successfull ones
+  on first retry - record only when retry the first time
+  
