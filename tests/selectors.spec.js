@@ -14,4 +14,8 @@ test('Selectors Demo', async({page}) => {
     // #login-button
     await page.locator('#login-button').click()
 
+    // using Xpath
+    await page.locator('xpath=//input[@name="password"]').fill('faraday')
+    await page.locator('//input[@name="password"]').fill('Ramanujan')
+
 });
