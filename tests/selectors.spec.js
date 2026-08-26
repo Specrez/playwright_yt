@@ -18,4 +18,8 @@ test('Selectors Demo', async({page}) => {
     await page.locator('xpath=//input[@name="password"]').fill('faraday')
     await page.locator('//input[@name="password"]').fill('Ramanujan')
 
+    // using text
+    await page.locator('text=LOGIN').click();
+    await page.locator('input:has-text("LOGIN")').click()
+
 });
