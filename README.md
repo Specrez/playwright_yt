@@ -33,3 +33,5 @@ test('has title', async ({ page, context }) => {
   ////////////
 
   locator is a class in playwright library
+
+  npx playwright test tests/assertions.spec.js --update-snapshots
