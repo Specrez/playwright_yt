@@ -31,3 +31,5 @@ test('has title', async ({ page, context }) => {
     screenshots: true 
   });
   ////////////
+
+  locator is a class in playwright library
